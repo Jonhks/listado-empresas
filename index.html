@@ -15,9 +15,19 @@
   <!-- menu -->
   <div class="title-bar menu-color">
     <div class="title-bar-left">
-      <button class="menu-icon" type="button" data-toggle="offCanvasLeft"></button>
+      <img class="img hidden-menu" src="./images/image2.png" width="45">
+      <span class="menu-responsive">
+        <button class="menu-icon" type="button" data-toggle="offCanvasLeft"></button>
+      </span>
     </div>
+    <span class="my-text menu-responsive">
+      <i class="fas fa-cog "></i> |
+    </span>
+    <span>
+      <i class="far fa-bell"></i>
+    </span>
   </div>
+
   <div class="off-canvas-wrapper">
     <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
       <div class="off-canvas position-left menu-hidenn" id="offCanvasLeft" data-off-canvas transition="push">
@@ -53,100 +63,101 @@
 
       <div class="off-canvas-content " data-off-canvas-content>
         <div class="grid-container">
-          <div id="after-menu" class="grid-x grid-padding-x final-menu">
-            <div class="cell  small-8 large-2 align-self-middle">
-              <span>Directorio de empresas</span>
-            </div>
-            <div class="cell small-4 large-2  align-self-middle">
-              <a id="add-button" class="button small align-self-middle" href="#">Agregar empresa</a>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x align-self-middle">
-            <div class="cell  small-8 large-8">
-              <span>Empresas </span> <a class="button small btn-sub" href="#">500</a>
-            </div>
-            <div class="small-4 large-4 text-right  align-self-middle">
-              <div>
-                Ordenar por: <a href="">Empresa</a> | <span> <a href=""> Administrador</a> </span>
+          <main class="menu-responsive">
+            <div id="after-menu" class="grid-x grid-padding-x final-menu">
+              <div class="cell  small-8 large-2 align-self-middle">
+                <span>Directorio de empresas</span>
+              </div>
+              <div class="cell small-4 large-2  align-self-middle">
+                <a id="add-button" class="button small align-self-middle" href="#">Agregar empresa</a>
               </div>
             </div>
-            <div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="cell  small-12 large-12">
-              <div class="pagination-top">
-                <nav aria-label="Pagination">
-                  <ul class="pagination text-right">
-                    <li><a href="#" aria-label="Page 2">1-10 de 230</a></li>
-                    <li class="pagination-previous"><i class="fas fa-chevron-circle-left my-icon"></i></li>
-                    <li class="pagination-next"><i class="fas fa-chevron-circle-right my-icon"></i></li>
-                    <li></li>
-                  </ul>
-                </nav>
+            <div class="grid-x grid-padding-x align-self-middle">
+              <div class="cell  small-8 large-8">
+                <span>Empresas </span> <a class="button small btn-sub" href="#">500</a>
+              </div>
+              <div class="small-4 large-4 text-right  align-self-middle">
+                <div>
+                  Ordenar por: <a href="">Empresa</a> | <span> <a href=""> Administrador</a> </span>
+                </div>
               </div>
               <div>
-                <form>
-                  <div class="grid-container">
-                    <div class="grid-x grid-padding-x">
-                      <div class="medium-3 cell">
-                        <div class="input-group">
-                          <span class="input-group-label"><i class="fas fa-search"></i></span>
-                          <input class="input-group-field" type="text">
-                        </div>
-                      </div>
-                      <div class="medium-9 cell">
-                        <nav aria-label="Pagination">
-                          <ul class="pagination text-center">
-                            <li class="pagination-letters"><a href="#" aria-label="Page A">A</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page B">B</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page C">C</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page D">D</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page E">E</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page F">F</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page G">G</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page H">H</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page i">I</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page J">J</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page K">K</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page L">L</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page M">M</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page N">N</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page O">O</a></li>
-                            <li class="current"><span class="show-for-sr"></span> P</li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page Q">Q</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page R">R</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page S">S</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page T">T</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page U">U</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page V">V</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page W">W</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page X">X</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page Y">Y</a></li>
-                            <li class="pagination-letters"><a href="#" aria-label="Page Z">Z</a></li>
-                          </ul>
-                        </nav>
-                      </div>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="cell  small-12 large-12">
+                <div class="pagination-top">
+                  <nav aria-label="Pagination">
+                    <ul class="pagination text-right">
+                      <li><a href="#" aria-label="Page 2">1-10 de 230</a></li>
+                      <li class="pagination-previous"><i class="fas fa-chevron-circle-left my-icon"></i></li>
+                      <li class="pagination-next"><i class="fas fa-chevron-circle-right my-icon"></i></li>
+                    </ul>
+                  </nav>
+                </div>
+          </main>
+          <div>
+            <form>
+              <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                  <div class="medium-3 small-12 cell input-padding">
+                    <div class="input-group">
+                      <span class="input-group-label"><i class="fas fa-search"></i></span>
+                      <input class="input-group-field" type="text">
                     </div>
                   </div>
-                </form>
+                  <div class="medium-9 cell menu-responsive">
+                    <nav aria-label="Pagination">
+                      <ul class="pagination text-center">
+                        <li class="pagination-letters"><a href="#" aria-label="Page Star">✭</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page A">A</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page B">B</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page C">C</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page D">D</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page E">E</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page F">F</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page G">G</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page H">H</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page i">I</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page J">J</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page K">K</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page L">L</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page M">M</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page N">N</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page O">O</a></li>
+                        <li class="current"><span class="show-for-sr"></span> P</li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page Q">Q</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page R">R</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page S">S</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page T">T</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page U">U</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page V">V</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page W">W</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page X">X</a></li>
+                        <li class="pagination-letters"><a href="#" aria-label="Page Y">Y</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
               </div>
-             <div id="components">
-             </div>
-             <div class="component">
-                <ul class="pagination text-right">
-                    <li><a class="person" href="#" aria-label="Page 2">1-10 de 230</a></li>
-                    <li class="pagination-previous"><i class="fas fa-chevron-circle-left my-icon"></i></li>
-                    <li class="pagination-next"><i class="fas fa-chevron-circle-right my-icon"></i></li>
-                    <li></li>
-                  </ul>
-              </div>
-            </div>
+            </form>
+          </div>
+          <div id="components">
+          </div>
+          <div class="component">
+            <ul class="pagination text-right">
+              <li><a class="person" href="#" aria-label="Page 2">1-10 de 230</a></li>
+              <li class="pagination-previous"><i class="fas fa-chevron-circle-left my-icon"></i></li>
+              <li class="pagination-next"><i class="fas fa-chevron-circle-right my-icon"></i></li>
+              <li></li>
+            </ul>
           </div>
         </div>
       </div>
-
     </div>
+  </div>
+
+  </div>
   </div>
 
   <!-- cierre de etiquetas -->
