@@ -1,4 +1,4 @@
-$(document).foundation();
+// $(document).foundation();
 
 const components = document.getElementById('components')
 
